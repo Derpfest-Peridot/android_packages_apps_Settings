@@ -206,6 +206,13 @@
             android:summary="@string/display_white_balance_summary"
             settings:controller="com.android.settings.display.DisplayWhiteBalancePreferenceController"/>
 
+
+        <SwitchPreferenceCompat
+            android:key="hdr_display"
+            android:title="@string/hdr_display_title"
+            android:summary="@string/hdr_display_summary"
+            settings:controller="com.android.settings.display.HdrDisplayPreferenceController"/>  
+
         <SwitchPreferenceCompat
             android:key="peak_refresh_rate"
             android:title="@string/peak_refresh_rate_title"
