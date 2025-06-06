@@ -207,7 +207,7 @@
             android:summary="@string/hdr_display_summary"
             settings:controller="com.android.settings.display.HdrDisplayPreferenceController"/>
             
-        <com.android.settings.preferences.SecureSettingSeekBarPreference
+        <org.derpfest.support.preferences.SecureSettingSeekBarPreference
             android:key="hdr_max_brightness_percent"
             android:title="@string/hdr_max_brightness_percent_title"
             android:max="100"
